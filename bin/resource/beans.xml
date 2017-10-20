@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+			<beans>
+			<bean id="driverClass" class="com.yash.pojo.DriverClass">
+			<property name="driverClassName" value="jdbc.mysql"></property>
+			<property name="url" value="com.jdbc.mysql"></property>
+			<property name="user" value="root"></property>
+			<property name="password" value="root"></property>
+			
+			
+			</bean>
+			
+			
+			<bean id="constructorArgDemo" class="com.yash.pojo.ConstructorArgDemo">
+			<constructor-arg value="jdbc.mysql" />
+			<constructor-arg value="com.jdbc.mysql" />
+			<constructor-arg  value="root" />
+			<constructor-arg value="root" />
+			
+			
+			</bean>
+			
+			</beans>
